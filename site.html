@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wear Your Nation</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        header nav a {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #444;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            background-color: #000;
+            color: #fff;
+            border: 2px solid #fff;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .hero button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        /* Featured Products */
+        .featured {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .featured h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: #555;
+            width: 200px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        /* Nationality Selector */
+        .selector {
+            background-color: #222;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        .selector h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .selector select {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #555;
+        }
+
+        /* Customer Reviews */
+        .reviews {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .reviews h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .review {
+            background-color: #333;
+            margin: 10px auto;
+            padding: 20px;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div>LOGO</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Wear Your Nation With Pride</h1>
+        <p>High-quality jumpers with flag embroidery for every nation.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="placeholder.jpg" alt="Product 1">
+                <p>Jumper with US Flag</p>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" alt="Product 2">
+                <p>Jumper with UK Flag</p>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" alt="Product 3">
+                <p>Jumper with Canada Flag</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nationality Selector -->
+    <section class="selector">
+        <h2>Select Your Nation</h2>
+        <select>
+            <option value="us">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="ca">Canada</option>
+            <!-- Add more countries here -->
+        </select>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="review">
+            <p>"Best jumper ever!" - John Doe</p>
+        </div>
+        <div class="review">
+            <p>"Proud to wear my country's flag!" - Jane Smith</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow us on social media</p>
+        <p>Contact us at support@example.com</p>
+        <p>&copy; 2024 Wear Your Nation</p>
+    </footer>
+</body>
+</html>
